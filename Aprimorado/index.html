@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    <!-- Biblioteca para Embaralhar Arrays-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"></script> 
+    <title>Jogo da Memória</title>
+</head>
+<body>
+    <div class="score">
+        <h2>Pares Encontrados: </h2>
+        <h2 id="pontos">0</h2>
+    </div>
+
+    <div class="mesa">
+        <div class="cards" id="carta1" onclick="Click1();">
+            <div class="carta" id="teste1">
+                <div class="frente" id="v1"></div>
+                <div class="verso" id="f1"></div>
+            </div>
+        </div>
+        <div class="cards" id="carta2" onclick="Click2();">
+            <div class="carta">
+                <div class="frente" id="v2"></div>
+                <div class="verso" id="f2"></div>
+            </div>
+        </div>
+        <div class="cards" id="carta3" onclick="Click3();">
+            <div class="carta">
+                <div class="frente" id="v3"></div>
+                <div class="verso" id="f3"></div>
+            </div>
+        </div>
+        <div class="cards" id="carta4" onclick="Click4();">
+            <div class="carta">
+                <div class="frente" id="v4"></div>
+                <div class="verso" id="f4"></div>
+            </div>
+        </div>
+
+        <div class="cards" id="carta5" onclick="Click5();">
+            <div class="carta">
+                <div class="frente" id="v5"></div>
+                <div class="verso" id="f5"></div>
+            </div>
+        </div>
+        <div class="cards" id="carta6" onclick="Click6();">
+            <div class="carta">
+                <div class="frente" id="v6"></div>
+                <div class="verso" id="f6"></div>
+            </div>
+        </div>
+        <div class="cards" id="carta7" onclick="Click7(); Resultado()">
+            <div class="carta">
+                <div class="frente" id="v7"></div>
+                <div class="verso" id="f7"></div>
+            </div>
+        </div>
+        <div class="cards" id="carta8" onclick="Click8(); Resultado()">
+            <div class="carta">
+                <div class="frente" id="v8"></div>
+                <div class="verso" id="f8"></div>
+            </div>
+        </div>
+        
+        <div class="cards" id="carta9" onclick="Click9(); Resultado()">
+            <div class="carta">
+                <div class="frente" id="v9"></div>
+                <div class="verso" id="f9"></div>
+            </div>
+        </div>
+        <div class="cards" id="carta10" onclick="Click10(); Resultado()">
+            <div class="carta">
+                <div class="frente" id="v10"></div>
+                <div class="verso" id="f10"></div>
+            </div>
+        </div>
+        <div class="cards" id="carta11" onclick="Click11(); Resultado()">
+            <div class="carta">
+                <div class="frente" id="v11"></div>
+                <div class="verso" id="f11"></div>
+            </div>
+        </div>
+        <div class="cards" id="carta12" onclick="Click12(); Resultado()">
+            <div class="carta">
+                <div class="frente" id="v12"></div>
+                <div class="verso" id="f12"></div>
+            </div>
+        </div>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
